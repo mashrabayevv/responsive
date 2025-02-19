@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.humans {
+    padding: 30px 100px;
+    
+}
+.imgla {
+    width: 90px;
+    height: 60px;
+}
+.box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+
+}
+
+
+
+
+@media screen and (max-width:390px) {
+    .box {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
